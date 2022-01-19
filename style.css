@@ -1,0 +1,16 @@
+/*
+Theme Name:         APSV
+Theme URI:          https://santafe.gob.ar/
+Description:        Theme APSV
+Version:            0.1.0
+Author:             APSV
+Author URI:         https://santafe.gob.ar/
+Text Domain:        sage
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}

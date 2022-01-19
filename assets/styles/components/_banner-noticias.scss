@@ -1,0 +1,25 @@
+.banner-noticias {
+    
+    height: 380px;
+
+    &_borde {
+        box-shadow: 0px 0px 5px rgb(128, 128, 128);
+        background: rgb(221, 221, 221);
+    }
+
+    &_image {
+      height: 100%;  
+      object-fit: cover;
+      
+    }
+
+    &_title{
+        color: black;
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        justify-content: center;
+        transform: translateY(-100%);
+        
+    }
+}

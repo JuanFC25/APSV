@@ -1,0 +1,22 @@
+.hero {
+    
+    height: 380px;
+  
+
+    &_image {
+      height: 100%;  
+      object-fit: cover;
+      filter:brightness(50%);
+      
+    }
+
+    &_title{
+        color: white;
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+        justify-content: center;
+        transform: translateY(-100%);
+        
+    }
+}
