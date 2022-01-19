@@ -33,7 +33,7 @@
     <nav class="navbar navbar-expand-sm navbar-light bg-light container navbar-toggleable-sm">
          
           <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
-            <img src="<?php echo get_template_directory_uri() . '/dist/images/APSV-logo.png'; ?>" class="img-fluid" alt=""  width="225" height="100">
+            <img src="<?php echo get_template_directory_uri() . '/dist/images/APSV-logo-nuevo-negro.png'; ?>" class="img-fluid" alt=""  width="225" height="100">
           </a>
       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">

@@ -13,7 +13,7 @@
 
 
 
-<<?php while ($posts->have_posts()) : $posts->the_post(); ?>
+<?php while ($posts->have_posts()) : $posts->the_post(); ?>
 <div class="container-fluid d-flex align align-items-stretch">
     <div class="d-flex align-items-stretch row">
         <div class= "col-12 col-md-6 d-flex justify-content-end" style="margin: 0px; padding: 0px;">

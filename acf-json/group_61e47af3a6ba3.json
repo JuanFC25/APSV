@@ -1,0 +1,48 @@
+{
+    "key": "group_61e47af3a6ba3",
+    "title": "Mapa",
+    "fields": [
+        {
+            "center_lat": -31.6507511,
+            "center_lng": -60.7096767,
+            "zoom": 13,
+            "key": "field_61e47af9df40c",
+            "label": "mapa",
+            "name": "mapa",
+            "type": "open_street_map",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "leaflet",
+            "layers": [
+                "OpenStreetMap.Mapnik"
+            ],
+            "allow_map_layers": 1,
+            "height": 400,
+            "max_markers": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1642600511
+}
