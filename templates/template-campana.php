@@ -1,28 +1,32 @@
 <?php
 /**
- * Template Name: Pagina-Tramites
+ * Template Name: Pagina-campana
  */
 
  use Roots\Sage\Titles;
 ?>
 
+
+
 <?php while (have_posts()) : the_post(); ?>
   <div class="hero">
     <?php the_post_thumbnail('',['class' => 'img-fluid hero_image']); ?>
     <div class="container hero_title">
-        <div class="d-flex justify-content-center"><h4 style="text-align:center"><?php echo Titles\subtitle(); ?></h4></div>
-        <div class="d-flex justify-content-center"><h1 style="text-align:center"><?php echo Titles\title(); ?></h1></div>
+        <div class="d-flex justify-content-center"><h1 class="flex"><?php echo Titles\title(); ?></title></h1></div>
+        <div class="d-flex justify-content-center"><h3 class="flex"><?php echo Titles\subtitle(); ?></title></h3></div>
+        
     </div>
   </div>
   <div class="container mt-5">
     <div class=row>
         <div class="col">
             <?php get_template_part('templates/content', 'page'); ?>
-        </div> 
-          
+        </div>   
     </div>
   </div>
 <?php endwhile; ?>
+
+<?php get_template_part("partials/banner-con-boton-movilidad-infantil"); ?>
 
 <?php get_template_part('partials/botones-compartir'); ?>
 

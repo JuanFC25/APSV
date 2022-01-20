@@ -8,9 +8,9 @@
         <div class="col-auto"><p class="text-white bg-dark" href="<?= esc_url(home_url('/')); ?>">     
           <img src="<?php echo get_template_directory_uri() . '/dist/images/telefono.png'; ?>" width="20" height="20" alt=""><small><b>0342 4815575 </b> </small>
         </p></div>
-        <div class="col-auto"><p class="text-white bg-dark" href="<?= esc_url(home_url('/')); ?>">     
+        <!--<div class="col-auto"><p class="text-white bg-dark" href="<?= esc_url(home_url('/')); ?>">     
           <img src="<?php echo get_template_directory_uri() . '/dist/images/correo.png'; ?>" width="20" height="20" alt=""><small><b>info@website.com</b></small>
-        </p></div>
+        </p></div>-->
         <div class="col-auto"><p class="text-white bg-dark" href="<?= esc_url(home_url('/')); ?>">     
           <img src="<?php echo get_template_directory_uri() . '/dist/images/reloj.png'; ?>" width="20" height="20" alt=""><small><b>Lun a Vie de 08:00 a 13:00 hs</b>  </small>
         </p></div>

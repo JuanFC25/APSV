@@ -39,7 +39,6 @@
                 <div class="col">
                   <p class="h4"><b>CONTACTO</b></p>
                   <p style="color:rgb(128,128,128);">Teléfono: (0342) 4815575</p>
-                  <p style="color:rgb(128,128,128);">Email : contacts@company.com</p>
                 </div>
             </div>
             <div class="row">
@@ -50,9 +49,9 @@
               <div class="col">
                   <p class="h4"><b>REDES SOCIALES</b></p>
                       
-                      <a href="https://www.facebook.com/SeguridadVialSantaFe/" class="btn btn-secondary mr-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/facebook.png'; ?>" width="20" height="20" alt="" ></a>
-                      <a href="https://twitter.com/RedSegVial" class="btn btn-secondary mr-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/twitter.png'; ?>" width="20" height="20" alt="" ></a>
-                      <a href="https://www.instagram.com/apsv_santa_fe/" class="btn btn-secondary mr-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/instagram.png'; ?>" width="20" height="20" alt="" ></a>
+                      <a href="https://www.facebook.com/SeguridadVialSantaFe/" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/facebook.png'; ?>" width="20" height="20" alt="" ></a>
+                      <a href="https://twitter.com/RedSegVial" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/twitter.png'; ?>" width="20" height="20" alt="" ></a>
+                      <a href="https://www.instagram.com/apsv_santa_fe/" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/instagram.png'; ?>" width="20" height="20" alt="" ></a>
                     
               </div>
             </div>
