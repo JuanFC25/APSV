@@ -59,6 +59,7 @@ function get_foto_autor(){
   return get_field('foto_autor');
 }
 
-function get_con_autor(){
+function get_tiene_autor(){
   return get_field('con_autor');
 }
+
