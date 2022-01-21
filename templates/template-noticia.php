@@ -17,7 +17,7 @@
     </div>
   </div>
   
-  <?php if(Titles\get_con_autor()): ?>
+  <?php if(Titles\get_tiene_autor()): ?>
   
   <div class="container-fluid" style="margin-top: -50px;">
       <div class="row">
