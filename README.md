@@ -1,8 +1,8 @@
-## APSV Web
+# APSV Web
 
-Esta es la version 1.0.0 de la web de la Agencia Provincial de Seguridad Vial. Cuenta con los siguientes templates:
+Version 1.0.0 del tema APSV para la  web de la Agencia Provincial de Seguridad Vial. Cuenta con los siguientes templates:
 
-# Inicio
+## Inicio
 
 Cuenta con un slider, al cual hay que seleccionarle las fotos.
 Tambien se debe seleccionar la foto para el banner de movilidad infantil segura y el banner de informe de transito.
@@ -17,7 +17,7 @@ Estructura:
     Ultimas noticias
     Boton informe de tránsito
 
-# Pagina-ultimas noticias-info transito
+## Pagina-ultimas noticias-info transito
 
 Estructura:
     Navbar
@@ -26,7 +26,7 @@ Estructura:
     Ultimas noticias
     Boton informe de tránsito
 
-# Pagina-botones compartir-info transito
+## Pagina-botones compartir-info transito
 
 Estructura:
     Navbar
@@ -36,7 +36,7 @@ Estructura:
     Boton informe de tránsito
 
 
-# Pagina-camana
+## Pagina-camana
 Template para la pagina Campañas de concientización
 
 Estructura:
@@ -48,7 +48,7 @@ Estructura:
     Boton informe de tránsito
 
 
-# Pagina-Tramites
+## Pagina-Tramites
 
 Estructura:
     Navbar
@@ -58,7 +58,7 @@ Estructura:
     Boton informe de tránsito
 
 
-# Pagina-La agencia
+## Pagina-La agencia
 Template para la pagina La Agencia
 
 Estructura:
@@ -71,7 +71,7 @@ Estructura:
     Boton informe de tránsito
 
 
-# Pagina-info transito
+## Pagina-info transito
 Template para la pagina La Agencia
 
 Estructura:
@@ -81,7 +81,7 @@ Estructura:
     Botones para compartir
 
     
-# Pagina-muestra las noticias
+## Pagina-muestra las noticias
 Template para la pagina noticias. 
 
 Estructura:
@@ -91,7 +91,7 @@ Estructura:
     Boton informe de tránsito
     Cards con noticias 
 
-# Pagina-muestra notas de opinion
+## Pagina-muestra notas de opinion
 Template para la pagina notas de opinion. 
 
 Estructura:
@@ -99,7 +99,7 @@ Estructura:
     Hero (Primero titulo y luego subtitulo)
     Cards con notas de opinion
 
-# post
+## post
 Template creado para ver una noticia o notas de opinion. En caso de tener autor, permite agregar una foto de este y el nombre.
 Estructura:
     Navbar
