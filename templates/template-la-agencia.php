@@ -49,9 +49,9 @@
               <div class="col">
                   <p class="h4"><b>REDES SOCIALES</b></p>
                       
-                      <a href="https://www.facebook.com/SeguridadVialSantaFe/" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/facebook.png'; ?>" width="20" height="20" alt="" ></a>
-                      <a href="https://twitter.com/RedSegVial" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/twitter.png'; ?>" width="20" height="20" alt="" ></a>
-                      <a href="https://www.instagram.com/apsv_santa_fe/" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/instagram.png'; ?>" width="20" height="20" alt="" ></a>
+                      <a target="_blank" href="https://www.facebook.com/SeguridadVialSantaFe/" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/facebook.png'; ?>" width="20" height="20" alt="" ></a>
+                      <a target="_blank" href="https://twitter.com/RedSegVial" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/twitter.png'; ?>" width="20" height="20" alt="" ></a>
+                      <a target="_blank" href="https://www.instagram.com/apsv_santa_fe/" class="btn btn-secondary m-2"><img src="<?php echo get_template_directory_uri() . '/dist/images/instagram.png'; ?>" width="20" height="20" alt="" ></a>
                     
               </div>
             </div>

@@ -1,19 +1,27 @@
 # APSV Web
 
-Version 1.0.0 del tema APSV para la  web de la Agencia Provincial de Seguridad Vial. Cuenta con los siguientes templates:
 
+Version 1.0.1 del tema APSV para la  web de la Agencia Provincial de Seguridad Vial. 
+
+* Cambios:
+    - Se corrige error al insertar video. 
+    - Links de redes sociales ahora se abren en una nueva pestaña.
+
+
+ 
+Cuenta con los siguientes templates:
 ## Inicio
 
 Cuenta con un slider, al cual hay que seleccionarle las fotos.
 Tambien se debe seleccionar la foto para el banner de movilidad infantil segura y el banner de informe de transito.
-Se puede agregar un video de Facebook.
+Se puede agregar un video (Youtube o Vimeo).
 
 * Estructura:
     - Navbar
     - Slider
     - Noticia Principal
     - Boton movilidad infantil segura
-    - Video Facebook (opcional)
+    - Video (opcional)
     - Ultimas noticias
     - Boton informe de tránsito
 

@@ -15,13 +15,13 @@
           <img src="<?php echo get_template_directory_uri() . '/dist/images/reloj.png'; ?>" width="20" height="20" alt=""><small><b>Lun a Vie de 08:00 a 13:00 hs</b>  </small>
         </p></div>
         <div class="col -2"></div>
-        <div class="col-auto"><a href="https://www.facebook.com/SeguridadVialSantaFe/">     
+        <div class="col-auto"><a target="_blank" href="https://www.facebook.com/SeguridadVialSantaFe/">     
           <img src="<?php echo get_template_directory_uri() . '/dist/images/facebook.png'; ?>" width="20" height="20" alt="" >
         </a></div>
-        <div class="col-auto"><a href="https://twitter.com/RedSegVial">     
+        <div class="col-auto"><a target="_blank" href="https://twitter.com/RedSegVial">     
           <img src="<?php echo get_template_directory_uri() . '/dist/images/twitter.png'; ?>" width="20" height="20" alt="" >
         </a></div>
-        <div class="col-auto"><a href="https://instagram.com/apsv_santa_fe">     
+        <div class="col-auto"><a target="_blank" href="https://instagram.com/apsv_santa_fe">     
           <img src="<?php echo get_template_directory_uri() . '/dist/images/instagram.png'; ?>" width="20" height="20" alt="" >
         </a></div>
         <div class="col -1"></div>

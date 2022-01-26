@@ -1,6 +1,6 @@
 {
     "key": "group_61eaa382b9c62",
-    "title": "Video Facebook",
+    "title": "Video (poner el mismo link en los tres campos)",
     "fields": [
         {
             "key": "field_61eaa4835d79d",
@@ -23,9 +23,9 @@
         },
         {
             "key": "field_61eaa38b3cb8d",
-            "label": "Codigo video",
-            "name": "codigo_video",
-            "type": "text",
+            "label": "Link video (Youtube o Vimeo) grande",
+            "name": "link_video_grande",
+            "type": "oembed",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -34,11 +34,40 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "width": 900,
+            "height": 512
+        },
+        {
+            "key": "field_61f1b5bf1923c",
+            "label": "Link video (Youtube o Vimeo) medio",
+            "name": "link_video_medio",
+            "type": "oembed",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": 500,
+            "height": 250
+        },
+        {
+            "key": "field_61f1b62b1923d",
+            "label": "Link video (Youtube o Vimeo) chico",
+            "name": "link_video_chico",
+            "type": "oembed",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "width": 300,
+            "height": 150
         }
     ],
     "location": [
@@ -57,6 +86,6 @@
     "instruction_placement": "label",
     "hide_on_screen": "",
     "active": true,
-    "description": "",
-    "modified": 1642767535
+    "description": "Simplemente copie el mismo link en los tres campos",
+    "modified": 1643231754
 }

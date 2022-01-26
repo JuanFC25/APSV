@@ -99,11 +99,20 @@ use Roots\Sage\Extras;
   <div class="container bg-dark">
     <div class="d-flex justify-content-center row">
       <div class="d-flex justify-content-center col-11 m-4">
-        <?php echo Extras\get_codigo_video(); ?>
+        <div class="embed-container d-sm-none">
+          <?php the_field('link_video_chico'); ?>
+        </div>
+        <div class="embed-container d-none d-sm-block d-lg-none">
+          <?php the_field('link_video_medio'); ?>
+        </div>
+        <div class="embed-container d-none d-lg-block">
+          <?php the_field('link_video_grande'); ?>
+        </div>
       </div>  
     </div>
   </div>  
 </div>
 <?php endif; ?>
+
 
 <?php get_template_part("partials/banner-con-boton-info-transito"); ?>
