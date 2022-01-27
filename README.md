@@ -1,11 +1,12 @@
 # APSV Web
 
 
-Version 1.0.1 del tema APSV para la  web de la Agencia Provincial de Seguridad Vial. 
+Version 1.0.2 del tema APSV para la  web de la Agencia Provincial de Seguridad Vial. 
 
 * Cambios:
     - Se corrige error al insertar video. 
     - Links de redes sociales ahora se abren en una nueva pestaña.
+    - Fix error slider de imagenes en diferentes navegadores.
 
 
  
