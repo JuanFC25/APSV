@@ -123,3 +123,7 @@ function get_codigo_video(){
   }
   return get_field('codigo_video');
 }
+
+function tiene_ultimas_noticias(){
+  return get_field('con_ultimas_noticias');
+}

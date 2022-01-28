@@ -6,7 +6,8 @@ Version 1.0.2 del tema APSV para la  web de la Agencia Provincial de Seguridad V
 * Cambios:
     - Se corrige error al insertar video. 
     - Links de redes sociales ahora se abren en una nueva pestaña.
-    - Fix error slider de imagenes en diferentes navegadores.
+    - Se agregan iconos de redes sociales en el footer.
+    - Se agrega opcion en el template de inicio para mostrar las ultimas noticias.
 
 
  
@@ -23,7 +24,7 @@ Se puede agregar un video (Youtube o Vimeo).
     - Noticia Principal
     - Boton movilidad infantil segura
     - Video (opcional)
-    - Ultimas noticias
+    - Ultimas noticias (opcional)
     - Boton informe de tránsito
 
 ## Pagina-ultimas noticias-info transito

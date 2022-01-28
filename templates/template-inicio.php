@@ -13,7 +13,7 @@ use Roots\Sage\Extras;
 <?php while (have_posts()) : the_post(); ?>
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner" style="height: 400px;">
+  <div class="carousel-inner d-flex align-items-stretch" style="height: 400px;">
     <div class="carousel-item active">
       <img class="img-fluid d-block w-100" style="object-fit: cover; object-position: center; height: 400px; overflow: hidden; filter:brightness(80%);" src="<?php echo Extras\get_foto_la_agencia(); ?>" alt="">
       <div class="carousel-caption ">
@@ -92,10 +92,12 @@ use Roots\Sage\Extras;
 
 <?php get_template_part("partials/banner-con-boton-movilidad-infantil"); ?>
 
-<div class="container-fluid">
-  <?php get_template_part("partials/ultimas_noticias_horizontal"); ?>
-</div>
 
+<?php if(Extras\tiene_ultimas_noticias()) : ?>
+  <div class="container-fluid">
+    <?php get_template_part("partials/ultimas_noticias_horizontal"); ?>
+  </div>
+<?php endif; ?>
 
 <?php if(Extras\tiene_video()) : ?>
 <div class="container-fluid bg-dark">
